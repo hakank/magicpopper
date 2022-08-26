@@ -58,7 +58,7 @@ Setting 1: you can specify pairs of predicates / arguments, such as:
 magic_value(cell,2).
 magic_value(dist,2).
 ```
-This allows the second argument of the predicate *cell* and *dist* to be bound to constant symbols. For instance, this allows the
+This allows the third argument of the predicate *cell* and *dist* to be bound to constant symbols. For instance, this allows the
 following hypothesis in the hypothesis space:
 ```prolog
 f(A) :- cell(A,B,w,C), cell(A,D,b,C), dist(B,D,1).
